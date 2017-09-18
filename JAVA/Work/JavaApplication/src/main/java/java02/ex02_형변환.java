@@ -18,13 +18,16 @@ public class ex02_형변환
         result = Integer.parseInt("1") + 'k';
         System.out.println(result);
         
-        result = ((false)? 0 : 1) + ((true)? 1 : 0);
+        result = ((false)? 1 : 0) + ((true)? 1 : 0);
         System.out.println(result);
         
         result = Integer.parseInt("1");
         System.out.println(result);
         
         result = 'k';
+        System.out.println(result);
+        
+        result = ((1 >= 0)? 9 : 2);
         System.out.println(result);
         
     }
