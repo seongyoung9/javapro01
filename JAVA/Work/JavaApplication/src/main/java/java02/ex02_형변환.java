@@ -30,6 +30,9 @@ public class ex02_형변환
         result = ((1 >= 0)? 9 : 2);
         System.out.println(result);
         
+        String g = String.valueOf(5);
+        System.out.println(g);
+        
     }
     
 }

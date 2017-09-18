@@ -14,7 +14,7 @@ public class 예제3_25
         System.out.print("문자 하나를 입력하세요.----->");  
         
         String input = scanner.nextLine();
-        ch = input.charAt(0);
+        ch = input.charAt(0);  //배열 첫번째숫자만 쓰겠다.
         
         if('0' <= ch && ch <= '9')
         {
