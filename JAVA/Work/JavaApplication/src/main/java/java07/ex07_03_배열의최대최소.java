@@ -8,7 +8,7 @@ public class ex07_03_배열의최대최소
     public static void main(String[] args)
     {
         Scanner key = new Scanner(System.in);
-        int size = 10;
+        int size = 5;
         int[] arr = new int[size];
         int min = 9999, max = 0,i=0;
         for (i = 0 ; i <= arr.length -1; i++ )
