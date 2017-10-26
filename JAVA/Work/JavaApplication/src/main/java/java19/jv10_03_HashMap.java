@@ -20,6 +20,7 @@ public class jv10_03_HashMap {
          * 이광수
          * 송혜교
          * */
+        
         map.put("c01", "송중기");
         map.put("c02", "이광수");
         map.put("c03", "송혜교");
@@ -69,6 +70,7 @@ public class jv10_03_HashMap {
         
         // for-each문으로 Map 출력하기. 방법2
         // http://stove99.tistory.com/96
+        
         System.out.print(" for-each문2 Map 출력하기 >> " );
         for (String key : map.keySet())
         {
@@ -79,6 +81,7 @@ public class jv10_03_HashMap {
         // for문으로 Map 출력하기. 방법1
         // iterator()를 이용하는 방식은 루프안에서 map 데이터를 삭제할때 사용.
         // http://stove99.tistory.com/96 
+        
         System.out.print(" iterator()를 이용하는 Map 출력하기 >> " );
         Iterator<String> keys = map.keySet().iterator();
         for( ; keys.hasNext() ; )
@@ -123,7 +126,22 @@ public class jv10_03_HashMap {
 
         // S: HashMap 검색. "자바 HashMap 검색"  
         // S: 키로 검색 containsKey() 사용
+
          
-        // S: 값으로 검색 containsValue() 사용
+         if (map.containsKey("c01")) 
+         {
+             System.out.println(map.get("c01"));
+         }
+                  
+         
+         // S: 값으로 검색 containsValue() 사용
+         // c11하하 추가
+         map.put("C11", "하하");
+         
+         if(map.containsValue("하하"))
+         {
+             System.out.println(map.values());
+         }
+         
     }    
 }
