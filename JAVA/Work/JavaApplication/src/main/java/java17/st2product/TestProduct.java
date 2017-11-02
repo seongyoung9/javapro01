@@ -54,17 +54,17 @@ public class TestProduct
         {
             Book book = new Book();
             
-            System.out.println("상품 설명 >> ");
+            System.out.print("상품 설명 >> ");
                                 book.set상품설명 ( key.next());
-            System.out.println("생산자 >> ");
+            System.out.print("생산자 >> ");
                                 book.set상품설명 ( key.next());
-            System.out.println("가격 >> ");
+            System.out.print("가격 >> ");
                                 book.set가격     ( key.next());
-            System.out.println("ISBN번호 >> ");
+            System.out.print("ISBN번호 >> ");
                                 book.setISBN번호 ( key.next());
-            System.out.println("저자번호 >> ");
+            System.out.print("저자번호 >> ");
                                 book.set저자     ( key.next());
-            System.out.println("책제목 >> ");
+            System.out.print("책제목 >> ");
                                 book.set책제목   ( key.next());
                                 
             list[roomnum] = book;
@@ -73,15 +73,15 @@ public class TestProduct
         else if ( 메뉴 == 2 )
         {
             CompatDisc cd = new CompatDisc();
-            System.out.println("상품 설명 >> ");
+            System.out.print("상품 설명 >> ");
                                 cd.set상품설명 ( key.next());
-            System.out.println("생산자 >> ");
+            System.out.print("생산자 >> ");
                                 cd.set생산자   ( key.next());
-            System.out.println("가격 >> ");
+            System.out.print("가격 >> ");
                                 cd.set가격     ( key.next());
-            System.out.println("앨범 제목 >> ");
+            System.out.print("앨범 제목 >> ");
                                 cd.set앨범제목 ( key.next());
-            System.out.println("언어 >> ");
+            System.out.print("언어 >> ");
                                 cd.set가수이름 ( key.next());
             
             list[roomnum] = cd;
@@ -91,19 +91,19 @@ public class TestProduct
         {
             CoversationBook cb = new CoversationBook();
             
-            System.out.println("상품 설명 >> ");
+            System.out.print("상품 설명 >> ");
                                 cb.set상품설명 ( key.next());
-            System.out.println("생산자 >> ");
+            System.out.print("생산자 >> ");
                                 cb.set생산자   ( key.next());
-            System.out.println("가격 >> ");
+            System.out.print("가격 >> ");
                                 cb.set가격     ( key.next());
-            System.out.println("ISBN번호 >> ");
+            System.out.print("ISBN번호 >> ");
                                 cb.setISBN번호 ( key.next());
-            System.out.println("저자번호 >> ");
+            System.out.print("저자번호 >> ");
                                 cb.set저자     ( key.next());
-            System.out.println("책제목 >> ");
+            System.out.print("책제목 >> ");
                                 cb.set책제목   ( key.next());
-            System.out.println("언어 >> ");
+            System.out.print("언어 >> ");
                                 cb.set언어     ( key.next()); 
                                  
             list[roomnum] = cb;
@@ -119,10 +119,10 @@ public class TestProduct
     private static void 상품출력(Product[] list) 
     {
         
-        for ( int i = 0 ; i <= list.length-1 ; i++)
-        {
+            System.out.print("상품 아이디를 입력해 주세요 : ");
+            int i = key.nextInt();
             System.out.println(list[i].toString());
-        }
+        
         
     }
 }
