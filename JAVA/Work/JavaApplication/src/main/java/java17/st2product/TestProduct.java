@@ -57,7 +57,7 @@ public class TestProduct
             System.out.print("상품 설명 >> ");
                                 book.set상품설명 ( key.next());
             System.out.print("생산자 >> ");
-                                book.set상품설명 ( key.next());
+                                book.set생산자 ( key.next());
             System.out.print("가격 >> ");
                                 book.set가격     ( key.next());
             System.out.print("ISBN번호 >> ");
@@ -125,4 +125,5 @@ public class TestProduct
         
         
     }
+    
 }
