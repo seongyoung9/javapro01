@@ -98,8 +98,9 @@ dependencies {
     compile "org.springframework:spring-tx:4.1.7.RELEASE"
 
 
-    // mysql 라이브러리
-    compile 'mysql:mysql-connector-java:5.1.38'
+    // mysql 드라이버(라이브러리)
+    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.38'
     
 
     // mybatis 라이브러리
