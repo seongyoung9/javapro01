@@ -100,6 +100,7 @@ public class frmbook extends JFrame {
         books.add( new book1(2, "mysql"            , "oreilly"  , "2009", 58700, true , 2 ) ) ;
         books.add( new book1(3, "java"             , "hall"     , "2013", 40000, true , 3 ) ) ;
         books.add( new book1(4, "first sql"        , "wiley"    , "2015", 57700, true , 4 ) ) ;
+        books.add( new book1(1, "operating system" , "wiley"    , "2003", 30700, false, 1 ) ) ;
     }
     private JScrollPane getScrollPane() {
         if (scrollPane == null) {
