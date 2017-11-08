@@ -18,7 +18,8 @@ public class java02_09_문자열결합
         String s3 = s1+s2;
         System.out.println(s3);
               
-        
+        String s = "select * from book \n ";
+        s = "where 1 = 1 " ;
     }
     
 }
