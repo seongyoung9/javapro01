@@ -2,9 +2,9 @@ package java23.jdbc;
 
 public class ModelAuth {
     
-    private Integer authid  = null;  //`authid` INT(11) NOT NULL,
-    private String name     = ""  ;  //`name`   VARCHAR(50) NULL DEFAULT NULL,
-    private String birth    = ""  ;  //`birth`  VARCHAR(10) NULL DEFAULT NULL,
+    private Integer authid  = null;    //`authid` INT(11) NOT NULL,
+    private String name     = null;    //`name`   VARCHAR(50) NULL DEFAULT NULL,
+    private String birth    = null;    //`birth`  VARCHAR(10) NULL DEFAULT NULL,
     
     
     public Integer getAuthid() {

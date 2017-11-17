@@ -68,7 +68,7 @@ public class DaoBook implements IBook {
         
         java.sql.ResultSet rs = null;
         
-        String query = "select * from book order by bookid asc";
+        String query = " select * from book order by bookid asc ";
         
         try {
             java.sql.PreparedStatement stmt = conn.prepareStatement(query);

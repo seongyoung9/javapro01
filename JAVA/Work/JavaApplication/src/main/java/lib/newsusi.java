@@ -24,18 +24,18 @@ public class newsusi extends JFrame {
     private JLabel lblNewLabel_2;
     private JLabel lblNewLabel_3;
     private JLabel lblNewLabel_4;
-    private JTextField textField;
-    private JTextField textField_1;
-    private JTextField textField_2;
-    private JTextField textField_3;
+    private JTextField txtname;
+    private JTextField txtrnn1;
+    private JTextField txtnum1;
+    private JTextField txtemail;
     private JLabel lblNewLabel_5;
-    private JTextField textField_4;
+    private JTextField txtrnn2;
     private JLabel label;
     private JLabel label_1;
-    private JTextField textField_5;
+    private JTextField txtnum2;
     private JButton btnNewButton;
     private JButton btnNewButton_1;
-    private JComboBox comboBox;
+    private JComboBox comnum;
     private JComboBox comboBox_1;
     
     /**
@@ -69,18 +69,18 @@ public class newsusi extends JFrame {
         contentPane.add(getLblNewLabel_2());
         contentPane.add(getLblNewLabel_3());
         contentPane.add(getLblNewLabel_4());
-        contentPane.add(getTextField());
-        contentPane.add(getTextField_1());
-        contentPane.add(getTextField_2());
-        contentPane.add(getTextField_3());
+        contentPane.add(getTxtname());
+        contentPane.add(getTxtrnn1());
+        contentPane.add(getTxtnum1());
+        contentPane.add(getTxtemail());
         contentPane.add(getLblNewLabel_5());
-        contentPane.add(getTextField_4());
+        contentPane.add(getTxtrnn2());
         contentPane.add(getLabel());
         contentPane.add(getLabel_1());
-        contentPane.add(getTextField_5());
+        contentPane.add(getTxtnum2());
         contentPane.add(getBtnNewButton());
         contentPane.add(getBtnNewButton_1());
-        contentPane.add(getComboBox());
+        contentPane.add(getComnum());
         contentPane.add(getComboBox_1());
     }
     private JLabel getLblNewLabel() {
@@ -118,37 +118,37 @@ public class newsusi extends JFrame {
         }
         return lblNewLabel_4;
     }
-    private JTextField getTextField() {
-        if (textField == null) {
-        	textField = new JTextField();
-        	textField.setBounds(112, 55, 116, 21);
-        	textField.setColumns(10);
+    private JTextField getTxtname() {
+        if (txtname == null) {
+        	txtname = new JTextField();
+        	txtname.setBounds(112, 55, 116, 21);
+        	txtname.setColumns(10);
         }
-        return textField;
+        return txtname;
     }
-    private JTextField getTextField_1() {
-        if (textField_1 == null) {
-        	textField_1 = new JTextField();
-        	textField_1.setBounds(112, 105, 116, 21);
-        	textField_1.setColumns(10);
+    private JTextField getTxtrnn1() {
+        if (txtrnn1 == null) {
+        	txtrnn1 = new JTextField();
+        	txtrnn1.setBounds(112, 105, 116, 21);
+        	txtrnn1.setColumns(10);
         }
-        return textField_1;
+        return txtrnn1;
     }
-    private JTextField getTextField_2() {
-        if (textField_2 == null) {
-        	textField_2 = new JTextField();
-        	textField_2.setBounds(198, 151, 83, 21);
-        	textField_2.setColumns(10);
+    private JTextField getTxtnum1() {
+        if (txtnum1 == null) {
+        	txtnum1 = new JTextField();
+        	txtnum1.setBounds(212, 151, 83, 21);
+        	txtnum1.setColumns(10);
         }
-        return textField_2;
+        return txtnum1;
     }
-    private JTextField getTextField_3() {
-        if (textField_3 == null) {
-        	textField_3 = new JTextField();
-        	textField_3.setBounds(112, 196, 116, 21);
-        	textField_3.setColumns(10);
+    private JTextField getTxtemail() {
+        if (txtemail == null) {
+        	txtemail = new JTextField();
+        	txtemail.setBounds(112, 196, 116, 21);
+        	txtemail.setColumns(10);
         }
-        return textField_3;
+        return txtemail;
     }
     private JLabel getLblNewLabel_5() {
         if (lblNewLabel_5 == null) {
@@ -157,13 +157,13 @@ public class newsusi extends JFrame {
         }
         return lblNewLabel_5;
     }
-    private JTextField getTextField_4() {
-        if (textField_4 == null) {
-        	textField_4 = new JTextField();
-        	textField_4.setBounds(248, 105, 116, 21);
-        	textField_4.setColumns(10);
+    private JTextField getTxtrnn2() {
+        if (txtrnn2 == null) {
+        	txtrnn2 = new JTextField();
+        	txtrnn2.setBounds(248, 105, 116, 21);
+        	txtrnn2.setColumns(10);
         }
-        return textField_4;
+        return txtrnn2;
     }
     private JLabel getLabel() {
         if (label == null) {
@@ -179,13 +179,13 @@ public class newsusi extends JFrame {
         }
         return label_1;
     }
-    private JTextField getTextField_5() {
-        if (textField_5 == null) {
-        	textField_5 = new JTextField();
-        	textField_5.setBounds(296, 151, 83, 21);
-        	textField_5.setColumns(10);
+    private JTextField getTxtnum2() {
+        if (txtnum2 == null) {
+        	txtnum2 = new JTextField();
+        	txtnum2.setBounds(296, 151, 83, 21);
+        	txtnum2.setColumns(10);
         }
-        return textField_5;
+        return txtnum2;
     }
     private JButton getBtnNewButton() {
         if (btnNewButton == null) {
@@ -213,13 +213,13 @@ public class newsusi extends JFrame {
         }
         return btnNewButton_1;
     }
-    private JComboBox getComboBox() {
-        if (comboBox == null) {
-        	comboBox = new JComboBox();
-        	comboBox.setModel(new DefaultComboBoxModel(new String[] {"010", "011", "016", "019"}));
-        	comboBox.setBounds(112, 151, 59, 21);
+    private JComboBox getComnum() {
+        if (comnum == null) {
+        	comnum = new JComboBox();
+        	comnum.setModel(new DefaultComboBoxModel(new String[] {"010", "011", "016", "019"}));
+        	comnum.setBounds(112, 151, 59, 21);
         }
-        return comboBox;
+        return comnum;
     }
     private JComboBox getComboBox_1() {
         if (comboBox_1 == null) {
