@@ -49,7 +49,7 @@ public class TestServiceAuth {
 		List<ModelAuth> result = svr.selectAll();
 		int rs = result.size();
 		
-		assertEquals(3, rs);
+		assertSame(1, result.get(0).getAuthid());
 	}
 
 	@Test

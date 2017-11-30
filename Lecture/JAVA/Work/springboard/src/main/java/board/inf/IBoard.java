@@ -10,18 +10,18 @@ import board.model.ModelComments;
 public interface IBoard {
 	
 	String getBoardName(String boardcd) throws Exception;
-	List<ModelBoard> getBoardOne(String boardcd) throws Exception;
+	ModelBoard getBoardOne(String boardcd) throws Exception;
 	List<ModelBoard> getBoardList() throws Exception;
 	int insertBoard(ModelBoard board) throws Exception;
 	int updateBoard(ModelBoard updateValue, ModelBoard searchValue) throws Exception;
 	int deleteBoard(ModelBoard board) throws Exception;
 	List<ModelBoard> getBoardSearch(ModelBoard board) throws Exception;
-	int getBoardTotalRecord(ModelBoard board, String searchWord) throws Exception;
-	List<ModelBoard> getBoardPaging(ModelBoard board, String searchWord, int start, int end) throws Exception;
-	int insertBoardList(String boardcd, String boardnm, Boolean UseYN) throws Exception;
+	int getBoardTotalRecord(String board, String searchWord) throws Exception;
+	List<ModelBoard> getBoardPaging(String boardcd, String boardnm, int start, int end) throws Exception;
+	int insertBoardList(List<ModelBoard> list) throws Exception;
 	int getArticleTotalRecord(String board, String searchWord) throws Exception;
 	List<ModelArticle> getArticleList(String boardcd, String searchWord, int start, int end) throws Exception;
-	List<ModelArticle> getArticle(int articleno) throws Exception;
+	ModelArticle getArticle(int articleno) throws Exception;
 	int insertArticle(ModelArticle article) throws Exception;
 	int updateArticle(ModelArticle updateValue, ModelArticle searchValue) throws Exception;
 	int deleteArticle(ModelArticle article) throws Exception;

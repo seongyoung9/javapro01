@@ -29,7 +29,6 @@ public class ServiceBoard implements IServiceBoard {
 		try {
 			result = dao.getBoardName(boardcd);
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -37,63 +36,114 @@ public class ServiceBoard implements IServiceBoard {
 	}
 
 	@Override
-	public List<ModelBoard> getBoardOne(String boardcd) throws Exception {
-		// TODO Auto-generated method stub
-		return null;
+	public ModelBoard getBoardOne(String boardcd) throws Exception {
+		ModelBoard result = null;
+		
+		try {
+			result = dao.getBoardOne(boardcd);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return result;
 	}
 
 	@Override
 	public List<ModelBoard> getBoardList() throws Exception {
-		// TODO Auto-generated method stub
-		return null;
+		List<ModelBoard> result = null;
+		try {
+			result = dao.getBoardList();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return result;
 	}
 
 	@Override
 	public int insertBoard(ModelBoard board) throws Exception {
-		// TODO Auto-generated method stub
-		return 0;
+		int result = -1;
+		try {
+			result = dao.insertBoard(board);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return result;
 	}
 
 	@Override
 	public int updateBoard(ModelBoard updateValue, ModelBoard searchValue) throws Exception {
-		// TODO Auto-generated method stub
-		return 0;
+		int result = -1;
+		try {
+			result = dao.updateBoard(updateValue, searchValue);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return result;
 	}
 
 	@Override
 	public int deleteBoard(ModelBoard board) throws Exception {
-		// TODO Auto-generated method stub
-		return 0;
+		int result = -1;
+		try {
+			result = dao.deleteBoard(board);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return result;
 	}
 
 	@Override
 	public List<ModelBoard> getBoardSearch(ModelBoard board) throws Exception {
-		// TODO Auto-generated method stub
-		return null;
+		List<ModelBoard> result = null;
+		try {
+			result = dao.getBoardSearch(board);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return result;
 	}
 
 	@Override
-	public int getBoardTotalRecord(ModelBoard board, String searchWord) throws Exception {
-		// TODO Auto-generated method stub
-		return 0;
+	public int getBoardTotalRecord(String board, String searchWord) throws Exception {
+		int result = -1;
+		try {
+			result = dao.getBoardTotalRecord(board, searchWord);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return result;
 	}
 
 	@Override
-	public List<ModelBoard> getBoardPaging(ModelBoard board, String searchWord, int start, int end) throws Exception {
-		// TODO Auto-generated method stub
-		return null;
+	public List<ModelBoard> getBoardPaging(String boardcd, String boardnm, int start, int end) throws Exception {
+		List<ModelBoard> result = null;
+		try {
+			result = dao.getBoardPaging(boardcd, boardnm, start, end);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return result;
 	}
 
 	@Override
-	public int insertBoardList(String boardcd, String boardnm, Boolean UseYN) throws Exception {
-		// TODO Auto-generated method stub
-		return 0;
+	public int insertBoardList(List<ModelBoard> list) throws Exception {
+		int result = -1;
+		try {
+			result = dao.insertBoardList(list);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return result;
 	}
 
 	@Override
 	public int getArticleTotalRecord(String board, String searchWord) throws Exception {
-		// TODO Auto-generated method stub
-		return 0;
+		int result = -1;
+		try {
+			result = dao.getArticleTotalRecord(board, searchWord);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return result;
 	}
 
 	@Override
@@ -103,9 +153,15 @@ public class ServiceBoard implements IServiceBoard {
 	}
 
 	@Override
-	public List<ModelArticle> getArticle(int articleno) throws Exception {
-		// TODO Auto-generated method stub
-		return null;
+	public ModelArticle getArticle(int articleno) throws Exception {
+		ModelArticle result = null;
+				 try {
+					         dao.increaseHit(articleno);
+					result = dao.getArticle (articleno);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+		return result;
 	}
 
 	@Override

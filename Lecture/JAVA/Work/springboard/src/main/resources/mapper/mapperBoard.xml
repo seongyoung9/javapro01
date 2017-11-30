@@ -94,10 +94,10 @@
                         TB_BBS_Board
                     WHERE 1 = 1
                         <if test="boardcd != null and boardcd != ''">
-                        AND boardcd = #{boardcd}
+                        AND boardcd like concat( '%' ,#{boardcd},'%')
                         </if>
                         <if test="boardnm != null and boardnm != ''">
-                        AND boardnm LIKE #{searchWord} 
+                        AND boardnm LIKE concat( '%' ,#{boardnm},'%')
                         </if>
                     GROUP BY boardcd, boardnm, UseYN
                     ORDER BY boardcd DESC
