@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        label { width: 90px; display: inline-block; vertical-align:top;}
+        label1 { width: 200px; display: inline-block;}
+        fieldset{ width: 430px; }
+        fieldset[name="bor"]{ width: 430px; border: 0px;}
+        input[type="text"] {width: 150px;}
+        input[type="number"] {width: 70px;}
+    </style>
+</head>
+<body>
+    <h1>상품 주문서</h1>
+    <form>
+
+        <!-- 개인 정보 -->
+        <fieldset>
+            <LEGEND>개인 정보</LEGEND>
+            <ul>
+            <li><label>이 름 </label><input type="text" name="이름" value="여백없이 입력"></li>
+            <li><label>연락처 </label><input type="text" name="연락처" value="연락가능한 번호"></li>
+            </ul>
+        </fieldset>
+
+        <!-- 배송지 정보 -->
+        <fieldset>
+            <LEGEND>배송지 정보</LEGEND>
+            <ul>
+                <li><label>주 소  </label><input type="text" name="주소"></li>
+                <li><label>전화번호 </label><input type="text" name="전화번호"></li>
+                <li>
+                    <label>메 모</label>
+                    <textarea name="메모" style="vertical-align: top;"></textarea>
+                </li>
+            </ul>
+        </fieldset>
+
+        <!-- 주문 정보 -->
+        <fieldset>
+            <LEGEND>주문 정보</LEGEND>
+            <ul>
+                <li>
+                    <input type="checkbox" name="과테">
+                    <label1>과테말라 안티구이 (100g)</label1>
+                        <input type="number" name="과테" value="0">개
+                </li>
+                <li>
+                    <input type="checkbox" name="인도">
+                    <label1>인도네시아 만엘링 (100g)</label1>
+                        <input type="number" name="인도" value="0">개
+                </li>
+                <li>
+                    <input type="checkbox" name="탐라">
+                    <label1>탐라는도다(블랜딩) (100g)</label1>
+                        <input type="number" name="탐라" value="0">개
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset name="bor">
+            <center>
+            <!-- 주문하기 -->
+            <input type="file" name="" value="주문하기">
+            <!-- 다시작성 : form 입력 값 초기화  -->
+            <input type="reset" name="" value="다시작성">
+            </center>
+
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
