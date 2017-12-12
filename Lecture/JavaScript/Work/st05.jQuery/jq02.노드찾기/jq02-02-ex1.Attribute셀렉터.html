@@ -8,11 +8,20 @@
         .largetext {   font-size: 30pt   }
         .italictext{   font-style: italic;   }
     </style>
-    
-    
+    <script type="text/javascript" src="../jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('h2').addClass('largetext italictext');
+
+            $('span, .simpletext1, p').addClass('largetext italictext');
+
+        });
+    </script>
+
+
 </head>
 <body>
-    <h2>Multiple Selector</h2>
+    <h2 class="largetext italictext">Multiple Selector</h2>
     <span>simple</span>
     <div class='simpletext1'>jQuery</div>
     <div>basic</div>

@@ -4,8 +4,144 @@
 		"selected_items":
 		[
 			[
+				"sub",
+				"submit\t.submit()"
+			],
+			[
+				"aler",
+				"alert\t( message?: DOMString ): void Window"
+			],
+			[
+				"pro",
+				"prop\t.prop() - single"
+			],
+			[
+				"text",
+				"text()\td3.text()-snippet"
+			],
+			[
+				"icon",
+				"icon-links"
+			],
+			[
+				"html",
+				"html\t.html()"
+			],
+			[
+				"img",
+				"img1"
+			],
+			[
+				"to",
+				"toggle\t.toggle()"
+			],
+			[
+				"remoc",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"result",
+				"result_class"
+			],
+			[
+				"resul",
+				"result_class"
+			],
+			[
+				"stye",
+				"style\t Style CSS"
+			],
+			[
+				"attr",
+				"attr\t.attr() - single"
+			],
+			[
+				"ale",
+				"alert\t( message?: DOMString ): void Window"
+			],
+			[
+				"reul",
+				"result_element"
+			],
+			[
+				"ht",
+				"html\t.html()"
+			],
+			[
+				"ho",
+				"hobby"
+			],
+			[
+				"chec",
+				"checkbox"
+			],
+			[
+				"out",
+				"outline\t = '' Style CSS"
+			],
+			[
+				"ch",
+				"checkbox"
+			],
+			[
+				"css",
+				"css\t.css() - single"
+			],
+			[
+				"ty",
+				"type\t: DOMString Blob"
+			],
+			[
+				"add",
+				"addClass\t.addClass()"
+			],
+			[
+				"backcol",
+				"backgroundColor\t Style CSS"
+			],
+			[
+				"targe",
+				"target"
+			],
+			[
+				"read",
+				"ready\t$(document).ready"
+			],
+			[
+				"backgroundco",
+				"backgroundColor\t Style CSS"
+			],
+			[
+				"re",
+				"ready\t$(document).ready"
+			],
+			[
+				"doc",
+				"document\t: Document Window"
+			],
+			[
+				"class",
+				"className\t: DOMString Element"
+			],
+			[
 				"getel",
-				"getElementById\t( elementId: DOMString ): Element Document"
+				"getElementsByTagName\t( localName: DOMString ): HTMLCollection Document"
+			],
+			[
+				"bt",
+				"btn1"
+			],
+			[
+				"cl",
+				"close\t(): void Document"
+			],
+			[
+				"MYAPP",
+				"MYAPP.Cookie.js"
+			],
+			[
+				"fu",
+				"function_with_name"
 			],
 			[
 				"getEle",
@@ -32,16 +168,8 @@
 				"prompt"
 			],
 			[
-				"fu",
-				"function"
-			],
-			[
 				"al",
 				"alert\t( message?: DOMString ): void Window"
-			],
-			[
-				"aler",
-				"alert"
 			],
 			[
 				"fun",
@@ -182,10 +310,6 @@
 			[
 				"borderco",
 				"border-color"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"id",
@@ -390,36 +514,25 @@
 			[
 				"en",
 				"enter()\td3-selection.enter()"
-			],
-			[
-				"ap",
-				"append()\td3-selection.append()"
-			],
-			[
-				"ht",
-				"html()\td3-selection.html()"
-			],
-			[
-				"select",
-				"select()\td3.select()"
-			],
-			[
-				"bo",
-				"border"
-			],
-			[
-				"t",
-				"text"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "st03.JavaScript/js21.브라우저객체/js21-31.쿠키예제.html",
+			"file": "st05.jQuery/jq03.노드설정/jq03-03.input태그설정.html",
 			"settings":
 			{
-				"buffer_size": 3218,
+				"buffer_size": 2938,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "st05.jQuery/jq03.노드설정/jq03-03-ex1.폼유효성검사.html",
+			"settings":
+			{
+				"buffer_size": 3037,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -504,13 +617,30 @@
 	"expanded_folders":
 	[
 		"/D/worksapce2/Lecture/JavaScript/Work",
-		"/D/worksapce2/Lecture/JavaScript/Work/st03.JavaScript",
-		"/D/worksapce2/Lecture/JavaScript/Work/st03.JavaScript/js21.브라우저객체"
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq03.노드설정"
 	],
 	"file_history":
 	[
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq03.노드설정/jq03-mi-02.연습문제풀이.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq03.노드설정/jq03-02-ex2.링크아이콘달기.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq02.노드찾기/jq02-02.속성셀렉터.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq03.노드설정/jq03-02-ex1.이미지조작.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq03.노드설정/jq03-02.attribute설정.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq03.노드설정/jq03-01.element설정.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq02.노드찾기/jq02-03.폼셀렉터.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq02.노드찾기/jq02-02-ex1.Attribute셀렉터.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq02.노드찾기/jq02-01.기본셀렉터.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq01.jQuery개요/jq01-12.jquery로테이블행색깔반복.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq01.jQuery개요/jq01-11.style로테이블행색깔반복.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq05.노드필터링/jq05-mi-02.스트라이프테이블.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq01.jQuery개요/jq01-02.jquery임포트.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st03.JavaScript/js21.브라우저객체/MYAPP.Cookie.js",
 		"/D/worksapce2/Lecture/JavaScript/Work/st03.JavaScript/js21.브라우저객체/js21-32.쿠키팝업창.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st03.JavaScript/js21.브라우저객체/MYAPP.Variable.js",
+		"/C/DevTool/sublimetext/Data/Settings/SideBarEnhancements.json",
 		"/D/worksapce2/Lecture/JavaScript/Work/st03.JavaScript/js21.브라우저객체/js21-31.쿠키예제.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st03.JavaScript/js21.브라우저객체/js21-31.js",
 		"/D/worksapce2/Lecture/JavaScript/Work/st03.JavaScript/js21.브라우저객체/js21-21.location.html",
 		"/D/worksapce2/Lecture/JavaScript/Work/st03.JavaScript/js21.브라우저객체/js21-11.폼유효성검사.html",
 		"/D/worksapce2/Lecture/JavaScript/Work/st03.JavaScript/js21.브라우저객체/ex21-3.에니메이션.html",
@@ -619,28 +749,11 @@
 		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/ch01.html/ht06-01.link태그.html",
 		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/ch01.html/ht03-01-ex2.html",
 		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/ch01.html/ht03-01-ex1.html",
-		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/ch01.html/ht03-01.목록태그.html",
-		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/ch01.html/ht03-01-ex1.txt",
-		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/ch01.html/ht02-01-ex1.html",
-		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/ch01.html/ht02-01-ex1.txt",
-		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/ch01.html/ht02-01.텍스트태그.html",
-		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/ch01.html/ht01-03.dom-tree.html",
-		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/ch01.html/ht01-01.HTML페이지구조.html",
-		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/ch01.html/ht01-00.html",
-		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/ht--00.html파일구조",
-		"/D/worksapce2/Lecture/JavaScript/Work/aaa.sublime-workspace",
-		"/D/DevTool/workspace/Lecture/JavaScript/Source/st13.D3/d03.SVG element와 style/d03-09.SVG element와 css.html",
-		"/D/DevTool/workspace/Lecture/JavaScript/Source/st13.D3/d03.SVG element와 style/d03-07.SVG element와 css.html",
-		"/D/DevTool/workspace/Lecture/JavaScript/Source/st13.D3/d03.SVG element와 style/d03-03.SVG element.html",
-		"/D/DevTool/workspace/Lecture/JavaScript/Source/st13.D3/d03.SVG element와 style/d03-05.SVG element와 style.html",
-		"/D/DevTool/workspace/Lecture/JavaScript/Source/st13.D3/d03.SVG element와 style/d03-01.SVG 좌표 시스템.html",
-		"/D/DevTool/workspace/Lecture/JavaScript/Source/st13.D3/d03.SVG element와 style/d03-01.SVG element.html",
-		"/D/DevTool/workspace/Lecture/JavaScript/Source/st13.D3/d03.SVG element와 style/d03-03.SVG element와 style.html",
-		"/D/DevTool/sublimetext/Data/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu"
+		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/ch01.html/ht03-01.목록태그.html"
 	],
 	"find":
 	{
-		"height": 33.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -655,6 +768,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"        \n",
 			"img",
 			"jquery-3.1.0.js",
 			"3.1.0",
@@ -690,24 +804,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "st03.JavaScript/js21.브라우저객체/js21-31.쿠키예제.html",
+					"file": "st05.jQuery/jq03.노드설정/jq03-03.input태그설정.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3218,
+						"buffer_size": 2938,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1880,
-								1880
+								598,
+								533
 							]
 						],
 						"settings":
@@ -720,8 +834,8 @@
 								{
 									"1":
 									[
-										1159,
-										1164
+										591,
+										597
 									]
 								},
 								"icon":
@@ -736,8 +850,8 @@
 								{
 									"1":
 									[
-										321,
-										326
+										534,
+										540
 									]
 								},
 								"unmatched":
@@ -746,21 +860,41 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -771,36 +905,16 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
 							],
 							"bracket_highlighter.locations":
 							{
@@ -808,8 +922,8 @@
 								{
 									"1":
 									[
-										1877,
-										1879
+										591,
+										597
 									]
 								},
 								"icon":
@@ -824,8 +938,8 @@
 								{
 									"1":
 									[
-										1877,
-										1879
+										534,
+										540
 									]
 								},
 								"unmatched":
@@ -834,21 +948,41 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -859,43 +993,231 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
 							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 900.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "st05.jQuery/jq03.노드설정/jq03-03-ex1.폼유효성검사.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3037,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1842,
+								1842
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1758,
+										1759
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1755,
+										1756
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1841,
+										1842
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1712,
+										1713
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 576.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -906,7 +1228,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 33.0
+		"height": 37.0
 	},
 	"input":
 	{
@@ -947,7 +1269,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 62.0
+		"height": 70.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -985,7 +1307,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 253.0,
+	"side_bar_width": 211.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -6,8 +6,54 @@
         div { padding: 5px 5px 5px 5px }
         .item{float:left; width:100px; }
     </style>
-    
-    
+    <script type="text/javascript" src="../jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#regBtn').click(function() {
+                var idtxt = $('#userId').val();
+                var nametxt = $('#userName').val();
+                var pwdtxt = $('#pwd').val();
+                var pwdcontxt = $('#pwdConfirm').val();
+
+                if (idtxt=='') {
+                    $('label[name="userId"]').text("아이디를 입력하세요");
+                }
+                else if (nametxt=='') {
+                    $('label[name="userId"]').text("");
+                    $('label[name="userName"]').text("이름을 입력하세요");
+                }
+                else if (pwdtxt=='') {
+                    $('label[name="userId"]').text("");
+                    $('label[name="userName"]').text("");
+                    $('label[name="pwd"]').text("비밀번호를 입력하세요");
+                }
+                else if (pwdcontxt=='') {
+                    $('label[name="userId"]').text("");
+                    $('label[name="userName"]').text("");
+                    $('label[name="pwd"]').text("");
+                    $('label[name="pwdConfirm"]').text("입력하세요");
+                }
+                else if (pwdtxt!=pwdcontxt) {
+                    $('label[name="userId"]').text("");
+                    $('label[name="userName"]').text("");
+                    $('label[name="pwd"]').text("");
+                    $('label[name="pwdConfirm"]').text("암호를확인해 주세요");
+                }
+                else{
+                    $('form').submit(function() {
+                        return true;
+                    });
+                }
+            });
+            $('#iniBtn').click(function(event) {
+                $('#userId').val('');
+                $('#userName').val('');
+                $('#pwd').val('');
+                $('#pwdConfirm').val('');
+            });
+        });
+    </script>
+
 </head>
 <body>
 <form name='fm'

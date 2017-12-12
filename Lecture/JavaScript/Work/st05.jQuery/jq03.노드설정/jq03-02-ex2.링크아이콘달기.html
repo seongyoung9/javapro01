@@ -10,8 +10,35 @@
         a.pdf { background-image: url(images/pdf.png);	}
         a.image { background-image: url(images/image.png); }
     </style>
-    
-    
+    <script type="text/javascript" src="../jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('a[href$="ppt"]').click(function() {
+                $(this).addClass('presentation')
+                return false;
+            });
+
+            $('a[href$="mp4"]').click(function() {
+                $(this).addClass('video')
+                return false;
+            });
+
+            $('a[href$="pdf"]').click(function() {
+                $(this).addClass('pdf')
+                return false;
+            });
+
+            $('a[href$="gif"],a[href$="png"]').click(function() {
+                $(this).addClass('image')
+                return false;
+            });
+
+            $('a[href$="jpg"],a[href$="hwp"]').click(function() {
+                return false;
+            });
+        });
+    </script>
+
 </head>
 <body>
 <div id="content">
@@ -23,8 +50,8 @@
         <li><a href="notes.pdf">Notes for presentation</a></li>
         <li><a href="icons.gif">GIF Icon sprite</a></li>
         <li><a href="icons.png">PNG Icon sprite</a></li>
-        <li><a href="icons.jpg">PNG Icon sprite</a></li>
-        <li><a href="icons.hwp">PNG Icon sprite</a></li>
+        <li><a href="icons.jpg">JPG Icon sprite</a></li>
+        <li><a href="icons.hwp">HWP Icon sprite</a></li>
 
 
         <li><a href="fuyyu.ppt">Presentation slides</a></li>
@@ -32,8 +59,8 @@
         <li><a href="uydyuflk.pdf">Notes for presentation</a></li>
         <li><a href="OIP.gif">GIF Icon sprite</a></li>
         <li><a href="ID7890IO.png">PNG Icon sprite</a></li>
-        <li><a href="PFDY.jpg">PNG Icon sprite</a></li>
-        <li><a href="PKS8ROU.hwp">PNG Icon sprite</a></li>
+        <li><a href="PFDY.jpg">JPG Icon sprite</a></li>
+        <li><a href="PKS8ROU.hwp">HWP Icon sprite</a></li>
     </ul>
 </div>
 </body>

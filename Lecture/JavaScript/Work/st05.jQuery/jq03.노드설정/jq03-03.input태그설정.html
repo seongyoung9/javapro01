@@ -14,8 +14,46 @@
         .white  { background: white;  }
         .gray   { background: gray;   }
     </style>
-    
-    
+    <script type="text/javascript" src="../jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#value_read').click(function()  {
+                var txt = $('#text').val();
+                alert(txt);
+             });
+            $('#value_create').click(function() {
+                var txt = $('#text').val();
+                txt += '->추가';
+                $('#text').val(txt);
+             });
+            $('#value_update').click(function() {
+                var update = $('#value_update').text();
+                $('#text').val(update);
+             });
+            $('#value_delete').click(function() {
+                $('#text').val('');
+             });
+
+
+
+
+            $('#prop_read').click(function()  {
+                var bool = $('input[type="checkbox"]').prop('checked');
+                alert(bool);
+            });
+            $('#prop_create').click(function() {
+                $('input[type="radio"]').prop('checked', true);
+             });
+            $('#prop_update').click(function() {
+                $('input[type="checkbox"]').prop('checked', false);
+             });
+            $('#prop_delete').click(function() {
+                $('input[type="text"]').prop('disabled', false);
+             });
+        });
+    </script>
+
+
 </head>
 <body>
 

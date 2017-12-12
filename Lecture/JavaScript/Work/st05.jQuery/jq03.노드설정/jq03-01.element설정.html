@@ -14,8 +14,45 @@
         .white  { background: white; cursor:pointer; }
         .gray   { background: gray;   }
     </style>
-    
-    
+    <script type="text/javascript" src="../jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#element_read').click(function() {
+                alert($('.pclick').html());
+                alert($('.pclick').text())
+            });
+            $('#element_create').click(function() {
+                $('#result_element').html('<img src="images/fish.png">');
+            });
+            $('#element_update').click(function() {
+                var ht = $('.pclick').html();
+                $('#result_element').html(ht);
+            });
+            $('#element_delete').click(function() {
+                //$('#result_element').html('    ');
+                $('#result_element').remove();
+            });
+
+            //text click event
+            $('.text_read').click(function() {
+                alert($('.text_read').text());
+            });
+            $('.text_create').click(function() {
+                var txt = $('.text_create').text();
+                txt += '->추가';
+                $('.text_create').text(txt);
+            });
+            $('.text_update').click(function() {
+                $(this).text($('.pclick').text());
+            });
+            $('.text_delete').click(function() {
+                $(this).text('');
+            });
+        });
+    </script>
+
+
+
 </head>
 <body>
     <p class="pclick">
@@ -29,7 +66,10 @@
         <button id="element_create">태그 추가(C)</button>
         <button id="element_update">태그 수정(U)</button>
         <button id="element_delete">태그 삭제(D)</button>
-        <div id="result_element" class="gray"> element CRUD </div>
+        <div id="result_element" class="gray">
+            element CRUD
+
+        </div>
     </div>
     <hr>
 
