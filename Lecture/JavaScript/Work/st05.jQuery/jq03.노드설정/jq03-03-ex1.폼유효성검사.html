@@ -40,9 +40,7 @@
                     $('label[name="pwdConfirm"]').text("암호를확인해 주세요");
                 }
                 else{
-                    $('form').submit(function() {
-                        return true;
-                    });
+                    $('form').submit();
                 }
             });
             $('#iniBtn').click(function(event) {

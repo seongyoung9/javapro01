@@ -5,8 +5,27 @@
     <style>
         div,span { background: #FFF; padding: 10px; margin: 10px; }
     </style>
-    
-    
+    <script type="text/javascript" src="../jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#firstSibling').click(function() {
+                $('#current').parents().children('div').first().css('border', '5px blue solid');
+                $('#current').prevAll('div').last().css('border', '5px blue solid');
+            });
+            $('#prevSibling').click(function() {
+                $('#current').prev('div').css('border', '5px blue solid');
+            });
+            $('#nextSibling').click(function() {
+                $('#current').next('div').css('border', '5px blue solid');
+            });
+            $('#lastSibling').click(function() {
+                $('#current').parents().children('div').last().css('border', '5px blue solid');
+                $('#current').nextAll('div').last().css('border', '5px blue solid');
+            });
+        });
+    </script>
+
+
 </head>
 <body>
     <h2>DOM Selector</h2>

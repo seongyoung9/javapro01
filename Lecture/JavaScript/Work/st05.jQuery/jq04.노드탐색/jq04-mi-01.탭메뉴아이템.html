@@ -29,9 +29,42 @@
         span { font-size: 50px; font-family: "NanumGothic", arial;}
 
     </style>
+    <script type="text/javascript" src="../jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#mission1').click(function() {
+                $(this).prop('disabled', 'true');
+                var tablength = $('.tab-menu>li').length;
+                $('#result').text(tablength);
+            });
+            $('#mission2').click(function() {
+                $(this).prop('disabled', 'true');
+                $('.tab-menu>li').click(function() {
+                    var txt = $(this).index();
+                    $('#result').text(txt);
+                });
+            });
+            $('#mission3').click(function() {
+                $(this).prop('disabled', 'true');
+                window.setInterval(function(){
 
-    
-    
+                }, 1000);
+            });
+            $('#mission4').click(function() {
+                $(this).prop('disabled', 'true');
+                $('.tab-menu>li').click(function() {
+                    $(this).parents().children().removeClass('select');
+                    $(this).addClass('select');
+                    var txt = $(this).index();
+                    $('#result').text(txt);
+                });
+            });
+        });
+
+    </script>
+
+
+
 
 </head>
 

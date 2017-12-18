@@ -9,9 +9,57 @@
         ul.menu li { border: 1px #eeeeee solid; padding-left: 10px; padding-right: 10px; display: block; }
         li.select { background-color: #ccc; }
     </style>
+    <script type="text/javascript" src="../jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
 
-    
-    
+            $('#add').click(function() {
+                var txt = $('#menuName').val();
+                if (txt === "") {
+                    return false
+                }
+                else if($('.menu li').hasClass('select') == true){
+                $('.select').after('<li> ' + txt +'</li>');
+
+                $('.menu li').mouseup(function(event) {
+                    $('.menu li').removeClass('select');
+                    $(this).addClass('select');
+                    var uptxt = $(this).text();
+                    $('#menuName').val(uptxt);
+                })
+                }
+
+                else{
+                $('.menu').append('<li>' + txt +'</li>');
+
+                $('.menu li').mouseup(function(event) {
+                    $('.menu li').removeClass('select');
+                    $(this).addClass('select');
+                    var uptxt = $(this).text();
+                    $('#menuName').val(uptxt);
+                })
+                }
+
+            });
+            $('#update').click(function() {
+                var txt = $('#menuName').val();
+                $('.select').text(txt)
+            });
+            $('#remove').click(function() {
+                $('.select').remove();
+            });
+            $('#up').click(function() {
+                var curtxt = $('select');
+                var pretxt = $('select').prev();
+
+
+
+            });
+            $('#down').click(function() {
+
+            });
+        });
+    </script>
 </head>
 
 <body>

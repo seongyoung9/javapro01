@@ -7,8 +7,79 @@
         table { border: 1px solid #AAA; width:98%; }
         td    { border: 1px solid #AAA; width: 20px; height: 20px; }
     </style>
-    
-    
+    <script type="text/javascript" src="../jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#eq').click(function()  {
+                //style = background-color : red
+                $('tr:eq(0) > td:eq(7)').css('backgroundColor', 'red');
+            });
+            $('#gt').click(function() {
+                //style = background-color : yellow
+                $('tr:eq(1) > td:gt(2)').css('backgroundColor', 'yellow');
+            });
+            $('#lt').click(function() {
+                //style = background-color : orange
+                $('tr:eq(1) > td:lt(2)').css('backgroundColor', 'orange');
+            });
+            $('#odd').click(function()  {
+                //style = background-color : blue
+                $('tr:eq(2) > td:odd').css('backgroundColor', 'blue');
+            });
+            $('#even').click(function() {
+                //style = background-color : green
+                $('tr:eq(2) > td:even').css('backgroundColor', 'green');
+            });
+            $('#first').click(function() {
+                //style = background-color : pink
+                //td:first() === td:eq(0)
+                $('tr:eq(3) > td:first()').css('backgroundColor', 'pink');
+                $('tr:eq(3) > td:eq(0)').css('backgroundColor', 'pink');
+            });
+            $('#last').click(function() {
+                //style = background-color : green
+                $('tr:eq(3) > td:last()').css('backgroundColor', 'green');
+            });
+            $('#ex1').click(function() {
+                $('tr:even').css('backgroundColor', 'darkred');
+            });
+            $('#ex2').click(function() {
+                $('td:odd').css('backgroundColor', 'green');
+            });
+            $('#ex3').click(function() {
+                $('tr:even > td:odd').css('backgroundColor', 'pink');
+            });
+            $('#ex4').click(function() {
+                $('td:nth-child(3n+1)').css('backgroundColor', 'pink');
+            });
+            $('#ex5').click(function() {
+                // $('td:nth-child(10n+1)').css('backgroundColor', 'orange');
+                // $('td:nth-child(1)').css('backgroundColor', 'orange');
+                // var trs = $('tr');
+                // $(trs).each(function(index, tr) {
+                //     $(tr).children('td:first').css('backgroundColor', 'orange');
+                // });
+                $('td').filter(function(index){
+                    return index % 10 === 0 ? true : false;
+                }).css('backgroundColor', 'orange');
+            });
+            $('#ex6').click(function() {
+                $('td:nth-child(1)').css('backgroundColor', 'red');
+                $('td:nth-child(10)').css('backgroundColor', 'red');
+            });
+            $('#ex7').click(function() {
+                $('td:nth-child(3)').css('backgroundColor', 'yellow');
+            });
+            $('#ex8').click(function() {
+                $('td:nth-child(1)').css('backgroundColor', 'red');
+                $('td:nth-child(10)').css('backgroundColor', 'yellow');
+                $('tr:eq(2) > td:eq(4)').css('backgroundColor', 'yellow').attr('colspan', '6');
+                $('tr:eq(2) > td:gt(4)').remove();
+
+            });
+        });
+    </script>
+
 </head>
 <body>
     <h2>Filter Selector</h2>

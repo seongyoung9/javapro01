@@ -5,8 +5,22 @@
     <style>
         div { background : #FFF; padding:10px; margin:10px; }
     </style>
-    
-    
+    <script type="text/javascript" src="../jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#filter').click(function() {
+                var lis = $('div > ul > li')
+                $(lis).filter(':gt(1)').css('border', '3px red solid');
+            });
+            $('#children').click(function() {
+                $('div > ul').children('li').css('border', '3px red solid');
+            });
+            $('#find').click(function() {
+                $('div > ul').find('li').css('border', '3px blue solid');
+            });
+        });
+    </script>
+
 </head>
 <body>
     <div>

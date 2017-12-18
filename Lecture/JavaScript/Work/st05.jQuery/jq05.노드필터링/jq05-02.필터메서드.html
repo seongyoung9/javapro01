@@ -7,8 +7,40 @@
         td { border:1px solid #AAA; width:25px; height:25px; }
         div { background : #FFF; margin:5px; width:100%; }
     </style>
-    
-    
+    <script type="text/javascript" src="../jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#selector').click(function() {
+                $('li > ul').css('background', 'red');
+            });
+            $('#method').click(function() {
+                $('li').children('ul').css('background', 'gray');
+            });
+            $('#eq2').click(function() {
+                $('div > ul > li:eq(2)').css('background', 'red')
+                        .text('eq text');
+            });
+            $('#eq2method').click(function() {
+                $('ul > li').filter(':eq(2)').css('background', 'gray');
+            });
+            $('#first').click(function() {
+                $('li').first().css('background', 'red')
+                        .text('first text');
+            });
+            $('#firstmethod').click(function() {
+                $('li').filter(':first').css('background', 'gray');
+            });
+            $('#last').click(function() {
+                $('li').last().css('background', 'red')
+                        .text('last text');
+            });
+            $('#lastmethod').click(function() {
+                $('li').filter(':last').css('background', 'gray');
+            });
+
+        });
+    </script>
+
 </head>
 <body>
     <div>
