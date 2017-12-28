@@ -6,8 +6,28 @@
     <style>
         img{  width: 140px; height: 120px; }
     </style>
-    
-    
+    <script type="text/javascript" src="../jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('img').click(function() {
+                //그림의 width가져오기. 매개변수가 없으면 getter
+                var w = $(this).width();
+                //그림의 height가져오기  매개변수가 없으면 getter
+                var h = $(this).height();
+
+                //그림의 width  height 설정하기
+                $(this).width(w*2);    //매개변수가 있으면 setter
+                $(this).height(h*2);   //매개변수가 있으면 setter
+
+                //style 이용한 width  height 설정하기
+                //$(this).css({'width' w*2}).css({'height' h*2});
+                $(this).css({width:w*2, height:h*2});
+
+            });
+        });
+
+    </script>
+
 
 </head>
 <body>

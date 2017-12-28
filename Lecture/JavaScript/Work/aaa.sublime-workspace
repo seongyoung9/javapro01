@@ -4,8 +4,140 @@
 		"selected_items":
 		[
 			[
+				"anima",
+				"animate\t.animate()"
+			],
+			[
+				"width",
+				"width"
+			],
+			[
+				"ani",
+				"animate\t.animate()"
+			],
+			[
+				"left",
+				"leftimage"
+			],
+			[
+				"rig",
+				"rightbtn"
+			],
+			[
+				"le",
+				"leftbtn"
+			],
+			[
+				"slid",
+				"slideUp\t.slideUp()"
+			],
+			[
+				"nex",
+				"nextAll\t.nextAll()"
+			],
+			[
+				"slide",
+				"slideDown\t.slideDown()"
+			],
+			[
+				"hide",
+				"hide"
+			],
+			[
+				"select",
+				"selected"
+			],
+			[
+				"has",
+				"hasClass\t.hasClass()"
+			],
+			[
+				"sli",
+				"slideToggle\t.slideToggle()"
+			],
+			[
 				"remove",
-				"remove\t.remove()"
+				"removeClass\t.removeClass()"
+			],
+			[
+				"toggl",
+				"toggle\t.toggle()"
+			],
+			[
+				"opa",
+				"opacity"
+			],
+			[
+				"show",
+				"show\t.show()"
+			],
+			[
+				"fade",
+				"fadeIn"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"backcol",
+				"background-color"
+			],
+			[
+				"ea",
+				"easing"
+			],
+			[
+				"li",
+				"linear"
+			],
+			[
+				"sho",
+				"show\t.show()"
+			],
+			[
+				"inn",
+				"innerHeight\t.innerHeight()"
+			],
+			[
+				"ht",
+				"html"
+			],
+			[
+				"bu",
+				"button"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"scr",
+				"scroll\t.scroll()"
+			],
+			[
+				"sc",
+				"scroll\t.scroll()"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"tri",
+				"trigger\t.trigger()"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"off",
+				"offset\t.offset()"
 			],
 			[
 				"menu",
@@ -128,10 +260,6 @@
 				"Number\t( value: any ): Number Number"
 			],
 			[
-				"select",
-				"select"
-			],
-			[
 				"pa",
 				"parents\t.parents()"
 			],
@@ -200,10 +328,6 @@
 				"result_element"
 			],
 			[
-				"ht",
-				"html\t.html()"
-			],
-			[
 				"ho",
 				"hobby"
 			],
@@ -230,10 +354,6 @@
 			[
 				"add",
 				"addClass\t.addClass()"
-			],
-			[
-				"backcol",
-				"backgroundColor\t Style CSS"
 			],
 			[
 				"targe",
@@ -298,10 +418,6 @@
 			[
 				"al",
 				"alert\t( message?: DOMString ): void Window"
-			],
-			[
-				"fun",
-				"function_with_name"
 			],
 			[
 				"onlo",
@@ -392,150 +508,22 @@
 				"confirm"
 			],
 			[
-				"sc",
-				"src\tAttr"
-			],
-			[
 				"scrip",
 				"script\tTag"
 			],
 			[
 				"ac",
 				"action\tAttr"
-			],
-			[
-				"co",
-				"color"
-			],
-			[
-				"background-cl",
-				"background-color"
-			],
-			[
-				"in",
-				"input\tTag"
-			],
-			[
-				"r",
-				"rgba()"
-			],
-			[
-				"texta",
-				"text-align"
-			],
-			[
-				"borbo",
-				"border-bottom-color"
-			],
-			[
-				"border-ri",
-				"border-right-color"
-			],
-			[
-				"borderco",
-				"border-color"
-			],
-			[
-				"id",
-				"id\tAttr"
-			],
-			[
-				"bacc",
-				"background-color"
-			],
-			[
-				"backc",
-				"background-color"
-			],
-			[
-				"di",
-				"div\tTag"
-			],
-			[
-				"clo",
-				"color"
-			],
-			[
-				"de",
-				"text-decoration"
-			],
-			[
-				"bak",
-				"background-color"
-			],
-			[
-				"bac",
-				"background-repeat"
-			],
-			[
-				"font",
-				"font-family"
-			],
-			[
-				"border-radius",
-				"border-bottom-right-radius"
-			],
-			[
-				"i",
-				"initial"
-			],
-			[
-				"d",
-				"dotted"
-			],
-			[
-				"mar",
-				"margin"
-			],
-			[
-				"fonts",
-				"font-style"
-			],
-			[
-				"mr",
-				"margin"
-			],
-			[
-				"backgroundc",
-				"background-color"
-			],
-			[
-				"dis",
-				"display"
-			],
-			[
-				"coo",
-				"color-profile"
-			],
-			[
-				"up",
-				"upper-roman"
-			],
-			[
-				"styl",
-				"style"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"ko\">\n<head>\n    <meta charset=\"UTF-8\">\n    <style>\n        body { font-size: 15pt; font-family: \"굴림\"; }\n        div  { width:350px; }\n        ul.menu { padding: 10px; list-style: none; border: 1px #000 solid; width:350px; }\n        ul.menu li { border: 1px #eeeeee solid; padding-left: 10px; padding-right: 10px; display: block; }\n        li.select { background-color: #ccc; }\n    </style>\n    <script type=\"text/javascript\" src=\"../jquery-3.2.1.js\"></script>\n    <script type=\"text/javascript\">\n        $(document).ready(function() {\n\n            $('#add').click(function() {\n                var txt = $('#menuName').val();\n                if (txt === \"\") {\n                    return false\n                }\n                else if($('.menu li').hasClass('select') == true){\n                $('.select').after('<li> ' + txt +'</li>');\n\n                $('.menu li').mouseup(function(event) {\n                    $('.menu li').removeClass('select');\n                    $(this).addClass('select');\n                    var uptxt = $(this).text();\n                    $('#menuName').val(uptxt);\n                })\n                }\n\n                else{\n                $('.menu').append('<li>' + txt +'</li>');\n\n                $('.menu li').mouseup(function(event) {\n                    $('.menu li').removeClass('select');\n                    $(this).addClass('select');\n                    var uptxt = $(this).text();\n                    $('#menuName').val(uptxt);\n                })\n                }\n\n            });\n            $('#update').click(function() {\n                var txt = $('#menuName').val();\n                $('.select').text(txt)\n            });\n            $('#remove').click(function() {\n                $('.select').remove();\n            });\n            $('#up').click(function() {\n                var curtxt = $('select');\n                var pretxt = $('select').prev();\n\n                \n\n            });\n            $('#down').click(function() {\n\n            });\n        });\n    </script>\n</head>\n\n<body>\n<div>\n    <input type=\"text\" id=\"menuName\" />\n    <br>\n    <button id=\"add\"   > 추가</button>\n    <button id=\"update\"> 수정</button>\n    <button id=\"remove\"> 삭제</button>\n    <button id=\"up\"    > UP</button>\n    <button id=\"down\"  > DOWN</button>\n</div>\n\n<ul class=\"menu\">\n</ul>\n\n<div>\n    <ol>\n        <li>마지막 위치에 메뉴 아이템 추가 또는 선택된 메뉴가 있는 경우에는 선택 메뉴 아래에 아이템 추가\n            <ul>\n                <li>input 박스의 값 읽기</li>\n                <li>선택된 메뉴 노드 찾기</li>\n                <li>추가된 엘리먼트에 동적 이벤트 추가하기</li>\n                <li>ul.menu에 추가되면  inputbox 초기화 </li>\n                <ul>\n                    <li>단, input 박스의 값이 빈 경우는 추가되어서는 안된다.</li>\n                </ul>\n            </ul>\n        </li>\n        <li>선택 메뉴 아이템 수정\n            <ul>\n                <li>input 박스의 값 읽기</li>\n                <li>선택 노드 찾기</li>\n                <li>찾은 노드의 텍스트 바꾸기</li>\n                <li>수정 후 inputbox 초기화</li>\n                <ul>\n                    <li>단, input 박스의 값이 빈 경우는 수정 금지</li>\n                </ul>\n            </ul>\n        </li>\n        <li>선택한 메뉴 아이템 삭제\n            <ul>\n                <li>선택 노드 찾기</li>\n                <li>선택 노드 삭제</li>\n            </ul>\n        </li>\n        <li>선택한 메뉴 아이템 위치를 위로 이동\n            <ul>\n                <li>선택 노드 찾기</li>\n                <li>선택 노드 이동</li>\n            </ul>\n        </li>\n        <li>선택한 메뉴 아이템 위치를 아래로 이동\n            <ul>\n                <li>선택 노드 찾기</li>\n                <li>선택 노드 이동</li>\n            </ul>\n        </li>\n    </ol>\n</div>\n</body>\n\n</html>\n\n\n\n\n\n\n\n",
-			"file": "st05.jQuery/jq06.노드조작/jq06-01-ex1-동적메뉴만들기.html",
-			"file_size": 4152,
-			"file_write_time": 131577978491950153,
+			"file": "st01.Hthm&CSS/ch01.html/ht08-01.form태그.html",
 			"settings":
 			{
-				"buffer_size": 3570,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "st05.jQuery/jq06.노드조작/jq06-01.dom_manipulation.html",
-			"settings":
-			{
-				"buffer_size": 3538,
+				"buffer_size": 715,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -620,13 +608,22 @@
 	"expanded_folders":
 	[
 		"/D/worksapce2/Lecture/JavaScript/Work",
-		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery",
-		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq06.노드조작"
+		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS",
+		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/ch01.html"
 	],
 	"file_history":
 	[
-		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq06.노드조작/jq06-01.dom_manipulation.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq08.에니메이션효과/jq08-02-ex2.아코디언패널.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq08.에니메이션효과/jq08-01.에니메이션효과.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq08.에니메이션효과/jq08-02-ex1.아코디언패널.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq08.에니메이션효과/jq08-02.슬라이딩FAQ.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq07.노드위치와크기/jq07-12.무한스크롤.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq07.노드위치와크기/jq07-11.스크롤.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq07.노드위치와크기/jq07-02.이미지를2배로.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq07.노드위치와크기/jq07-02-ex1.임의의크기와위치,색깔.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq07.노드위치와크기/jq07-01.offset.html",
 		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq06.노드조작/jq06-01-ex1-동적메뉴만들기.html",
+		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq06.노드조작/jq06-01.dom_manipulation.html",
 		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq05.노드필터링/jq05-03.노드재검색.html",
 		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq05.노드필터링/jq05-02.필터메서드.html",
 		"/D/worksapce2/Lecture/JavaScript/Work/st05.jQuery/jq05.노드필터링/jq05-01.필터셀렉터.html",
@@ -743,16 +740,7 @@
 		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/cs02.CSS선택자/cs02-01-ex2.id선택자.html",
 		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/cs02.CSS선택자/cs02-01-ex1.tag선택자.html",
 		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/cs02.CSS선택자/cs02-01.기본선택자.html",
-		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/cs01.CSS기초/cs01-02.색상스타일.html",
-		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/cs01.CSS기초/style.css",
-		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/cs01.CSS기초/cs01-01.스타일.html",
-		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/ch01.html/ht09-01.viedo.html",
-		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/ch01.html/ht10-01-ex1.html",
-		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/ch01.html/ht09-02.audio.html",
-		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/ch01.html/ht09-01-ex1.html",
-		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/ch01.html/ht08-04-ex4.html",
-		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/ch01.html/ht08-03.입력태그실습1.html",
-		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/ch01.html/ht08-02.input태그.html"
+		"/D/worksapce2/Lecture/JavaScript/Work/st01.Hthm&CSS/cs01.CSS기초/cs01-02.색상스타일.html"
 	],
 	"find":
 	{
@@ -813,19 +801,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "st05.jQuery/jq06.노드조작/jq06-01-ex1-동적메뉴만들기.html",
+					"file": "st01.Hthm&CSS/ch01.html/ht08-01.form태그.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3570,
+						"buffer_size": 715,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1945,
-								1945
+								493,
+								493
 							]
 						],
 						"settings":
@@ -838,24 +826,24 @@
 								{
 									"1":
 									[
-										1467,
-										1468
+										492,
+										493
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
 									]
 								},
 								"open":
 								{
 									"1":
 									[
-										1404,
-										1405
+										454,
+										455
 									]
 								},
 								"unmatched":
@@ -864,46 +852,31 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -914,11 +887,26 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
 							"bracket_highlighter.locations":
 							{
@@ -926,24 +914,24 @@
 								{
 									"1":
 									[
-										1959,
-										1960
+										492,
+										493
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
 									]
 								},
 								"open":
 								{
 									"1":
 									[
-										1835,
-										1836
+										454,
+										455
 									]
 								},
 								"unmatched":
@@ -952,41 +940,31 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -997,11 +975,21 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -1013,218 +1001,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 660.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "st05.jQuery/jq06.노드조작/jq06-01.dom_manipulation.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 3538,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3056,
-								3056
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										14,
-										15
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/angle_bracket.png",
-										"region.orangish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										0,
-										1
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										3053,
-										3055
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										3053,
-										3055
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]

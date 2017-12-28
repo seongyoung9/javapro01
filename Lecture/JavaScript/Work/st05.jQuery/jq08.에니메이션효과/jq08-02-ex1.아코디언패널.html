@@ -14,8 +14,21 @@
         dd p{ text-indent:1em; padding:20px; }
     </style>
 
-    
-    
+    <script type="text/javascript" src="../jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('dd').hide();
+            $('dt').click(function() {
+                $('dt').removeClass('selected').removeClass('over');
+                $(this).addClass('selected');
+                $(this).siblings('dd').slideUp(2000);
+                $(this).next('dd').slideToggle(2000);
+
+            });
+        });
+    </script>
+
+
 </head>
 <body>
     <dl>
